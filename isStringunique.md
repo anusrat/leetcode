@@ -18,7 +18,7 @@ bool isUnique(string str)
 	{
 		if(str[i] != cache)
 		{
-			cache - str[i];
+			cache = str[i];
 		}
 		else
 		{
